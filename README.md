@@ -5,7 +5,7 @@
 change the email and password(maybe the login url as well) in `index.js`
 ```
 npm install
-npm run
+npm start
 ```
 
 Then the screenshots like these will be saved
