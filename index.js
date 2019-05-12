@@ -1,10 +1,13 @@
 const puppeteer = require('puppeteer')
+const assert = require('assert')
 
 
 const email = "";
 const password = "";
 // You might want to change this if this is invalid when you test it
 const login_url = "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-4JR04850Y9063343G"
+assert.notEqual(email, "")
+assert.notEqual(password, "");
 
 const login_png = 'paypal_login_page.png';
 const loading_png = 'paypal_loading.png';
